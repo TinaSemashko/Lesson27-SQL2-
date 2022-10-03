@@ -50,4 +50,4 @@ SELECT Count(*) FROM Persons as P
 --group persons by age and show how many persons with same age
 SELECT Age, Count(*) as CountSameAge FROM Persons as P 
 GROUP BY Age
-
+--checked
